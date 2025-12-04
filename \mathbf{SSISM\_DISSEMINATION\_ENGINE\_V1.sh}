@@ -1,0 +1,38 @@
+# SCRIPT_NAME: SSISM_DISSEMINATION_ENGINE_V1
+# TARGET_ENGINE: SSISM_DISSEMINATION_ENGINE (New Module)
+
+# VARIABLES (Input from SSISM_PYINNYASHI_V_ENGINE - Using M-15 Data)
+DOSSIER_ID="EcoDyn_M15_Gas_Discovery_20251203"
+CORE_FINDING="M-15 Gas Discovery provides $20.1B+ financial lifeline to junta."
+URGENCY_STATUS="Junta drafting public announcement NOW."
+POLICY_IMPACT="Sanctions Evasion & Prolonged Conflict Trajectory."
+
+# FUNCTION: Generate Strategic Dissemination Assets
+Function generate_pitch_and_targets() {
+    Echo "## [DISSEMINATION] Starting Pitch and Target Generation for $DOSSIER_ID"
+    
+    # 1. GENERATE MEDIA PITCH (LLM-Assisted Summary)
+    # Goal: Short, compelling, and relevant subject line and hook.
+    V_ENGINE_DB_COMMAND CREATE_ASSET Media_Pitch \
+        --Subject "BREAKING: $20B Gas Discovery Will TRIPLE Junta’s Revenue, Undermining US/EU Sanctions" \
+        --Hook "Exclusive analysis finds the M-15 offshore gas field exceeds the refinery threshold (15 TCF+), giving the regime a path to financial immunity. The announcement is imminent." \
+        --Call_to_Action "Immediate action is needed to target MOGE's contractual revenue flows (Yadana, Shwe) now before M-15 secures their future."
+        
+    # 2. SUGGEST OPTIMIZED METADATA (Keywords for Findability)
+    # Goal: Maximize SEO for search results.
+    V_ENGINE_DB_COMMAND INSERT_UPDATE Dossier_Metadata \
+        --Keywords "MOGE, M-15 Gas, Myanmar Sanctions, Min Aung Hlaing, TotalEnergies, Chevron, LNG, PTTEP, Financial Lifeline, Burma"
+        
+    # 3. IDENTIFY TARGET AUDIENCE (Based on real-time search & context)
+    # Goal: Identify specific journalists and policy analysts covering this beat.
+    Echo "## [TARGETING] Identifying Policy & Media Targets"
+    V_ENGINE_DB_COMMAND INSERT_UPDATE Target_Profiles \
+        --Journalists "Mizzima Media (local focus), The Irrawaddy, DVB (exile media), The Guardian (Investigative), NYT (Intl)" \
+        --Policy_Analysts "IISS (Asia Security), ISP-Myanmar, EarthRights International (resource extraction focus), CSIS (Southeast Asia Program)" \
+        --Target_Focus "Energy Security / Sanctions Accountability"
+        
+    Echo "## [SUCCESS] Dissemination Assets Generated. Ready for Outreach."
+}
+
+# EXECUTION
+generate_pitch_and_targets
