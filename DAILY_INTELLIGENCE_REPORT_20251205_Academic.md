@@ -14,11 +14,6 @@ tags:
 license: "CC BY-SA 4.0"
 status: "Public Release"
 
-Here is your GitHub-ready Markdown, including clean metadata, academic formatting, and a consistent SSISM file header for your repository.
-
-You can copy & paste directly into your .md file.
-
-
 ---
 
 DAILY_INTELLIGENCE_REPORT_20251205.md
