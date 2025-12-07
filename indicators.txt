@@ -1,0 +1,14 @@
+# indicators.txt - Starter Evidence File (JSON Lines Recommended for Live System)
+
+# Example 1: Triggering the 'Partition Accepted' branch
+{"signal":"diplomatic","location":"Northern Shan","confidence":"high","window":"2025-12-07","threshold":"AA/KIA signals temporary ceasefire boundaries; initial local deal accepted"}
+
+# Example 2: Triggering the 'MI Collapse' branch
+{"signal":"logistics","location":"Naypyidaw","confidence":"medium","window":"2025-12-06","threshold":"warrants high, major leaders uncaught; defector note confirms MI blind spot"}
+
+# Example 3: Triggering the 'Federal Push' branch
+{"signal":"narrative","location":"Rakhine","confidence":"high","window":"2025-12-07","threshold":"Public regime-change rhetoric from key leaders; significant advance beyond borders"}
+
+# Example 4: Testing the 'No Triggers Fired' branch
+# This line should not trigger any known pattern.
+{"signal":"battlefield","location":"Kayin","confidence":"low","window":"2025-12-07","threshold":"Routine skirmish, no change in AO"}
