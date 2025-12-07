@@ -91,8 +91,5 @@ And PowerPoint AI cannot fight in the mud.
 
 ---
 
-**SSISM Editorial Commentary – Public Record**  
-**CC BY-SA 4.0 – Free to remix with attribution**
-
-
-e9c3a8db0c11c36f1f2d4fbdc7e41b9d3c7b9b8a67b17eab1c0c5f9d3e7c9a1  MAH_AI_Satire_Editorial_2025-12-07.md
+## 🧾 File Integrity — SHA-256 Checksum  
+This checksum ensures the authenticity and integrity of the document for public verification.
