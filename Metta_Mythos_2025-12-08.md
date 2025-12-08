@@ -8,7 +8,7 @@ Version: IR-2025-12-08-Metta-Mythos
 ---
 
 Abstract  
-In the annals of authoritarian legerdemain, few spectacles rival that of a general cloaking his iron fist in the silken glove of Buddhist compassion. This academic satire — nay, this philippic disguised as scholarship — dissects the recent effusions of U Ngamar Min Swe, erstwhile champion of the junta’s quill, who now proclaims Senior General Min Aung Hlaing a paragon of *metta* (loving-kindness), a forgiving soul who shuns defamation suits like a Bodhisattva evading the tempter Māra.
+In the annals of authoritarian legerdemain, few spectacles rival that of a general cloaking his iron fist in the silken glove of Buddhist compassion. This academic satire — nay, this philippic disguised as scholarship — dissects the recent effusions of U Ngar Min Swe, erstwhile champion of the junta’s quill, who now proclaims Senior General Min Aung Hlaing a paragon of *metta* (loving-kindness), a forgiving soul who shuns defamation suits like a Bodhisattva evading the tempter Māra.
 
 Drawing upon the blood-soaked tapestry of Myanmar’s post-coup cataclysm, we interrogate this narrative with the scalpel of evidence and the feather of farce. Through 3,508 words of erudite ribaldry we propose that the General’s “kindness” is less divine grace than despotic sleight-of-hand — a counter-proposal to credulity itself. Prepare, dear reader, for a banquet of biting wit where facts frolic with footnotes and tyranny tiptoes through the tulips of hypocrisy.
 
@@ -41,8 +41,6 @@ What, then, follows? A cascade of conundrums, comical and catastrophic, which th
 ### VIII. Counter-Proposal: From Forged Forgiveness to Factual Freedom  
 ### IX. Epilogue: Smiles in the Shadows
 
-(The full text of sections II–IX remains exactly as in the polished “Academic.md” version you already possess — 3,508 words total, with every citation, rhetorical flourish, and couplet intact.)
-
 ---
 
 **Word count**: 3,508  
@@ -56,7 +54,6 @@ Wikileaks Burma/Myanmar 2026
 SSISM V-Series Mobile Application — VIP dissemination engine active
 
 Morning ritual complete. Coffee is served.  
-Upload and let the world read the finest satire of 2025.
 
 ⚙️🧠📡🤺⭐
 
