@@ -1,0 +1,31 @@
+#!/bin/bash
+# SSISM ONE-TOUCH ARCHIVE SCRIPT (IR-2025-12-08-Metta-Mythos)
+
+# --- 1. Define Variables ---
+ARCHIVE_FILE="Metta_Mythos_2025-12-08.md"
+ARCHIVE_DATE="2025-12-08"
+# The Git SHA for the commit that added the Metta_Mythos file
+GIT_SHA="caf5b1641bc29e7abdb0e5c5d753d92e40198230"
+
+echo "1. Calculating IPFS Content ID (CID) for ${ARCHIVE_FILE}..."
+
+# --- 2. Calculate and Capture CID ---
+# This command generates the unique cryptographic fingerprint (CID).
+CID_OUTPUT=$(ipfs add --only-hash "${ARCHIVE_FILE}" | awk '{print $2}')
+
+# --- 3. Update Archival Manifest (CID_MANIFEST.txt) ---
+ARCHIVE_RECORD="${ARCHIVE_DATE}|${GIT_SHA}|${CID_OUTPUT}"
+
+echo "2. Writing Archival Record to CID_MANIFEST.txt..."
+echo "${ARCHIVE_RECORD}" >> CID_MANIFEST.txt
+
+# --- 4. Stage Files ---
+echo "3. Staging manifest file for final signed commit."
+git add CID_MANIFEST.txt
+git add "${ARCHIVE_FILE}"
+
+echo "---"
+echo "✅ ARCHIVE READY: IPFS CID generated and Manifest updated."
+echo "Record: ${ARCHIVE_RECORD}"
+echo "---"
+echo "Proceeding to final Git Commit step..."
