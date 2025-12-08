@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{TITLE}}</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; max-width:900px; margin:32px auto; line-height:1.6; color:#111; padding:0 18px; }
+    header { border-bottom:1px solid #eee; margin-bottom:18px; padding-bottom:12px; }
+    h1 { font-size:1.5rem; margin:0 0 6px 0; }
+    .meta { color:#555; font-size:0.9rem; }
+    pre.integrity { background:#f7f7f7; padding:12px; border-radius:6px; font-family:monospace; overflow:auto; }
+    article h2 { margin-top:1.1rem; }
+    footer { margin-top:28px; border-top:1px solid #eee; padding-top:12px; color:#444; font-size:0.9rem; }
+    .small { font-size:0.85rem; color:#666; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="title">{{TITLE}}</h1>
+    <div class="meta">
+      <span id="author">{{AUTHOR}}</span> · <time id="date" datetime="{{DATE}}">{{DATE_HUMAN}}</time> · <span id="version">{{VERSION}}</span>
+    </div>
+  </header>
+
+  <section class="ssism-metadata">
+    <pre class="integrity" id="ssism">
+---
+title: "{{TITLE}}"
+author: "{{AUTHOR}}"
+date: "{{DATE}}"
+version: "{{VERSION}}"
+category: "{{CATEGORY}}"
+tags: {{TAGS}}
+repository: "{{REPOSITORY}}"
+license: "{{LICENSE}}"
+
+ssism_integrity:
+  methodology: "Git-based immutability + SHA-256 hashing + IPFS-ready structure"
+  status: "PENDING"
+  verification_timestamp: "{{DATE}}T00:00:00+07"
+  hash_algorithm: "SHA-256"
+  sha256_digest: "<PLACEHOLDER_SHA256>"
+  generated_by: "SSISM Integrity Engine v1.x"
+  reviewer: "SSISM Automated Reviewer"
+---
+    </pre>
+  </section>
+
+  <article id="content">
+{{CONTENT}}
+  </article>
+
+  <footer>
+    <div class="small">SSISM Dissemination Engine V1 — UIngarsoe / SSISM_DISSEMINATION_ENGINE_V1</div>
+    <div class="small">Integrity: SHA-256 digest is embedded above. Any modification after publishing will break the checksum.</div>
+  </footer>
+</body>
+</html>
