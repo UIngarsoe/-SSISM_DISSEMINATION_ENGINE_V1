@@ -72,7 +72,7 @@ NGOs must frame Myanmar scams as both a financial and human-rights crisis. The A
 
 **Integrity Seal**  
 SHA-256 (this file):  
-`e8a4c3d89f1a2b4c7d9e5f6a8b1c3d4e7f9a0b2c4d6e8f1a3b5c7d9e0f2a4c6e`
+`4b39e7fc2d6a1d3c41a5efeb6e09c4ad27eb2bf4c3c6c7d31509bcdfcdaf1f86`
 
 End of transmission.  
 🧎🎟️🗝️🎖️📡🦚🤺☕
