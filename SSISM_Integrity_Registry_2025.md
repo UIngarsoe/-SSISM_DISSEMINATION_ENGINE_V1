@@ -1,12 +1,12 @@
 # SSISM Integrity Registry — 100 Articles Series  
 Maintained by: **SSISM Dissemination Engine V1**  
 Hash Standard: **SHA-256 (FIPS 180-4 Compliant)**  
-Last Updated: **2025-12-08**
+Last Updated: **2025-12-09**
 
 ---
 
 ## 📌 Progress Summary  
-- **Articles Completed:** 4 / 100  
+- **Articles Completed:** 5 / 100  
 - **Integrity Status:** All entries cryptographically sealed  
 - **Registry Purpose:** Long-term tamper-proof public archive for SSISM Intel products
 
@@ -14,12 +14,13 @@ Last Updated: **2025-12-08**
 
 ## 📑 Article Registry Table
 
-| No | Date | Title | File | SHA-256 |
-|----|------|--------|-------|---------|
-| 1 | 2025-12-07 | SSISM Counter-Analysis — MAH’s AI Claims | `IR-2025-12-07-MAH-AI.html` | `<hash>` |
-| 2 | 2025-12-07 | Federal Push Alert Review | `IR-2025-12-07-FedPush.html` | `<hash>` |
-| 3 | 2025-12-08 | Ye Bilu Assault Analysis | `IR-2025-12-08-YeBilu.html` | `<hash>` |
-| 4 | 2025-12-08 | Metta Mythos Satirical Analysis | `IR-2025-12-08-MettaMythos.html` | `<hash>` |
+| No | Date       | Title                                              | File                                      | SHA-256                                                                 |
+|----|------------|----------------------------------------------------|-------------------------------------------|-------------------------------------------------------------------------|
+| 1  | 2025-12-07 | SSISM Counter-Analysis — MAH’s AI Claims           | `IR-2025-12-07-MAH-AI.html`               | `<hash>`                                                                |
+| 2  | 2025-12-07 | Federal Push Alert Review                          | `IR-2025-12-07-FedPush.html`              | `<hash>`                                                                |
+| 3  | 2025-12-08 | Ye Bilu Assault Analysis                           | `IR-2025-12-08-YeBilu.html`               | `<hash>`                                                                |
+| 4  | 2025-12-08 | Metta Mythos Satirical Analysis                    | `IR-2025-12-08-MettaMythos.html`          | `<hash>`                                                                |
+| 5  | 2025-12-09 | Rakhine Theatre Inflection Point: Strategic Collapse, Manpower Exhaustion, and the Emergence of an Asymmetric “Terrain Dominance” Model | `IR-2025-12-09-Rakhine-Inflection.html` | `ee87e32e562f09a0bf8a733fb8a2c20d32d726fab2e20b8de2645bdd8b273b01` |
 
 ---
 
