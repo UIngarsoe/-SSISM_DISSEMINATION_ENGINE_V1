@@ -152,9 +152,12 @@ If trends continue, Rakhine may become the first fully transformed battlespace o
 
  
 
-6. Integrity Seal (To be Added)
+6. Integrity Seal 
 
-After publication, the SHA-256 verification will be appended here.
+SHA-256 verification of this Academic md
 
-sha256: <checksum after upload>
+sha256: <IR-2025-12-10-Rakhine-Frontline-Inflection.md
+SHA-256:
+4e8ea279bd2b5c3a6a0e594956f77356f27b1c28db8361a15c1fcf27b0a822d1>
 
+End of the morning breakfast of SSISM System for the SSISM V Series systems and VIP Mobile Users.
