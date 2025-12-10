@@ -3,7 +3,7 @@ title: "Echo Briefing – Youth at the Helm: Myanmar's Spring Revolution"
 author: "SSISM Youth Intelligence Cell"
 date: "2025-12-10"
 version: "ECHO-2025-12-10-FINAL"
-integrity_sha256: "b7f8e2c4a9d1e5f6b3c8d0e2f4a6b8c9d1e3f5a7b9c2d4e6f8a0b2c4d6e8f0a1"  # Placeholder – replace with computed below
+integrity_sha256: "2b85a2a01372bbf071a75ab08e81c77a7479d00b3f6af8e2ea469cea39e367c6"
 description: "Secure briefing for strike leaders: Ko Nan Lin and the youth vanguard rejecting the junta's sham election. Internal VIP distribution only."
 ---
 
