@@ -1,11 +1,5 @@
 SSISM_Fact_Only_Dossier_Shan_State_RCSS_Regional_Dynamics_2025.md
 
- 
-
-✅ UPLOAD-READY MARKDOWN FILE
-
----
-
 author: SSISM Strategic Analysis Division
 
 date: 2025-12-11
