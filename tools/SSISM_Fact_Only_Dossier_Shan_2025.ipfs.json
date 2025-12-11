@@ -1,0 +1,11 @@
+{
+  "ssism_title": "SSISM Fact-Only Dossier — Shan State, RCSS & Regional Dynamics (2025)",
+  "version": "FACT-ONLY-2025-V1",
+  "sha256": "b4f2cc0f0cdb1e4c1cbb7bd8251d9f63d082be54bd217e2691d9c5cd88f1ca72",
+  "author": "SSISM Strategic Analysis Division",
+  "published": "2025-12-11",
+  "classification": "Public Analysis File",
+  "source_repository": "github.com/UIngarsoe/-SSISM_DISSEMINATION_ENGINE_V1",
+  "integrity_method": "SHA-256 checksum + SSISM Synthetic PGP Signature",
+  "description": "Fact-only evidence-based dossier on RCSS, Shan State, and regional dynamics."
+}
