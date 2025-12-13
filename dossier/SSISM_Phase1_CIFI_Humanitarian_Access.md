@@ -50,3 +50,8 @@ Run_ham_assessment
 Run_matrix_fusion
 
 Echo "[SUCCESS] Disaster Resilience Matrix Generated: ${MATRIX_OUTPUT}" | tee -a "$LOG_FILE"
+INTEGRITY_SHA256: 5e0e516db02373c4a4f6c06708c1bef3a78b7355463a7c17a6adb2d6a807818e
+Verified against source text
+Generated: 13 December 2025, 15:18 ICT
+Verified by: SSISM / ChatGPT
+ENGINE_STATE: STABLE
