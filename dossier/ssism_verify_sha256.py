@@ -1,33 +1,36 @@
 #!/usr/bin/env python3
-# SSISM SHA-256 Verification Script
-# No bash required. Just run with any Python environment.
+"""
+SSISM SHA-256 Verification Utility
+Purpose: Verify integrity of SSISM dossier files
+"""
 
 import hashlib
 import sys
 
-FILE_PATH = "SSISM_DOSSIER_Myat_Tun_Oo_Civilian_Facade_Scam_Economy_Election_Transition.md"
+EXPECTED_SHA256 = "500ea108a68453e96b0bfe8803af07ccfa8d07559fbc292fae4d7ed838fd51e8"
 
-# 🔐 PASTE THE OFFICIAL SHA-256 HERE (once generated)
-EXPECTED_SHA256 = "PASTE_SHA256_HASH_HERE"
-
-def calculate_sha256(path):
+def compute_sha256(file_path):
     sha256 = hashlib.sha256()
-    with open(path, "rb") as f:
-        for chunk in iter(lambda: f.read(8192), b""):
-            sha256.update(chunk)
+    with open(file_path, "rb") as f:
+        for block in iter(lambda: f.read(4096), b""):
+            sha256.update(block)
     return sha256.hexdigest()
 
-if __name__ == "__main__":
-    try:
-        calculated = calculate_sha256(FILE_PATH)
-        print("Calculated SHA-256:", 500ea108a68453e96b0bfe8803af07ccfa8d07559fbc292fae4d7ed838fd51e8
-        print("Expected   SHA-256:", EXPECTED_SHA256)
-
-        if calculated.lower() == EXPECTED_SHA256.lower():
-            print("\n✅ VERIFICATION PASSED: File integrity confirmed.")
-        else:
-            print("\n❌ VERIFICATION FAILED: File has been altered.")
-
-    except FileNotFoundError:
-        print("❌ ERROR: Dossier file not found.")
+def main():
+    if len(sys.argv) != 2:
+        print("Usage: python ssism_verify_sha256.py <file.md>")
         sys.exit(1)
+
+    file_path = sys.argv[1]
+    calculated = compute_sha256(file_path)
+
+    print("EXPECTED :", EXPECTED_SHA256)
+    print("CALCULATED:", calculated)
+
+    if calculated == EXPECTED_SHA256:
+        print("✅ INTEGRITY VERIFIED — FILE AUTHENTIC")
+    else:
+        print("❌ INTEGRITY FAILED — FILE MODIFIED")
+
+if __name__ == "__main__":
+    main()
