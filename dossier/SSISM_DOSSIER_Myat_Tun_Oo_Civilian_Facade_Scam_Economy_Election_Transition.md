@@ -235,8 +235,20 @@ Election‑era civilianization via USDP represents reputational laundering, not 
 > Authority was present. Outcomes were absent. Responsibility remains.
 
 
+---
 
+### Integrity & Verification
 
+- SHA-256: 500ea108a68453e96b0bfe8803af07ccfa8d07559fbc292fae4d7ed838fd51e8
+- Generated from UTF-8 source text
+- Verification Method: SSISM SHA-256 Verifier
+- Classification: Public OSINT / Analytical Exposure
+- Integrity Status: Sealed
+
+---
+SHA -256 Temper Proof Protected OSINT BURMA/Myanmar 2025
+SSISM Intel
+16 December 2025
 ---
 
 End of the dossier.
