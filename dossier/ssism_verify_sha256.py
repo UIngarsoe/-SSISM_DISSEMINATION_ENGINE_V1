@@ -20,7 +20,7 @@ def calculate_sha256(path):
 if __name__ == "__main__":
     try:
         calculated = calculate_sha256(FILE_PATH)
-        print("Calculated SHA-256:", calculated)
+        print("Calculated SHA-256:", 500ea108a68453e96b0bfe8803af07ccfa8d07559fbc292fae4d7ed838fd51e8
         print("Expected   SHA-256:", EXPECTED_SHA256)
 
         if calculated.lower() == EXPECTED_SHA256.lower():
