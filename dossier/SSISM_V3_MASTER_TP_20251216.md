@@ -130,3 +130,5 @@ git commit --amend -m 'FEAT: Final Master Upload | CHINA-MYITSONE-DEC2025-V1 HLP
 # WARNING: Only use --force-with-lease on your own branch to avoid overwriting others' work.
 git push origin [your-branch-name] --force-with-lease
 
+# Generate the new, correct SHA-256 hash for the modified file
+sha256sum dossier/SSISM_V3_MASTER_TP_20251216.md
